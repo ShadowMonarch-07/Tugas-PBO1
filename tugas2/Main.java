@@ -10,7 +10,7 @@ package tugas2;
  */
 public class Main {
     public static void main(String[] args) {
-        // 4. Membuat 2 Object dari masing-masing constructor
+        // Membuat 2 Object dari masing-masing constructor
         
         // Objek 1: Menggunakan Constructor Default
         Produk produk1 = new Produk();
