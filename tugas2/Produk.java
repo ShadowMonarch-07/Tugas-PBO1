@@ -9,16 +9,16 @@ package tugas2;
  * @author mhmmd
  */
 public class Produk {
-    // 1. Atribut
+    // Atribut
     String namaBarang;
     double harga;
     int stok;
 
-    // 2. Constructor 1: Produk Baru (Default)
+    // Constructor 1: Produk Baru (Default)
     public Produk() {
-        this.namaBarang = "Geforce RTX 5060";
-        this.harga = 10000.0;
-        this.stok = 1;
+        this.namaBarang = "Produk";
+        this.harga = 0.0;
+        this.stok = 0;
     }
 
     // 2. Constructor 2: Produk dengan Detail (Custom)
