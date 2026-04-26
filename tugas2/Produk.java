@@ -21,14 +21,14 @@ public class Produk {
         this.stok = 0;
     }
 
-    // 2. Constructor 2: Produk dengan Detail (Custom)
+    // Constructor 2: Produk dengan Detail (Custom)
     public Produk(String nama, double harga, int stok) {
         this.namaBarang = nama;
         this.harga = harga;
         this.stok = stok;
     }
 
-    // 3. Method Tanpa Nilai Balik (Void)
+    // Method Tanpa Nilai Balik (Void)
     public void kurangiStok(int jumlah) {
         if (stok >= jumlah) {
             stok -= jumlah;
@@ -38,7 +38,7 @@ public class Produk {
         }
     }
 
-    // 3. Method Dengan Nilai Balik (Return Value)
+    // Method Dengan Nilai Balik (Return Value)
     public String getInfoProduk() {
         return "Produk: " + namaBarang + " | Harga: Rp" + harga + " | Sisa Stok: " + stok;
     }
